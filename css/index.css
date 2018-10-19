@@ -1,0 +1,310 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+/* structural elements 结构元素 */
+
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+/* list elements 列表元素 */
+
+pre,
+/* text formatting elements 文本格式元素 */
+
+fieldset,
+lengend,
+button,
+input,
+textarea,
+/* form elements 表单元素 */
+
+th,
+td {
+    /* table elements 表格元素 */
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+    border: none
+}
+
+/* 设置默认字体 */
+
+body,
+button,
+input,
+select,
+textarea {
+    /* for ie */
+    /*font: 12px/1 Tahoma, Helvetica, Arial, "宋体", sans-serif;*/
+    font: 12px/1 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+    /* 用 ascii 字符表示，使得在任何编码下都无问题 */
+}
+
+.body {
+    list-style: none;
+}
+
+.mt10 {
+    margin-top: 10px;
+}
+
+.active {
+    border-bottom: 2px solid #fff;
+}
+
+.hidden {
+    display: none;
+}
+
+.banner {
+    width: 100%;
+    background: url(../images/bg.png) no-repeat;
+}
+
+.bet {
+    margin-top: 20px;
+}
+
+.info {
+    padding: 10px 0px;
+}
+
+.changeToken {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.btn-toolbar {
+    display: inline-flex;
+}
+
+.text_1 {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.order {
+    display: inline-block;
+}
+
+.get {
+    display: inline-block;
+}
+
+.orderList {
+    margin: auto;
+    background-color: #1c233f;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.info {
+    padding: 25px 0;
+}
+
+.word1 {
+    font-size: 13px;
+    color: #898a8c;
+}
+
+.number {
+    font-size: 34px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 10px;
+}
+
+/* 进度条样式 */
+
+#text {
+    color: #fff;
+}
+
+#box {
+    position: relative;
+    margin: 50px auto;
+}
+
+#bg {
+    height: 18px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#bgcolor {
+    background: #5889B2;
+    height: 20px;
+    border-radius: 5px;
+    width: 50%;
+}
+
+#bt {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 17px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -15px;
+    top: 50%;
+    margin-top: -15px;
+    cursor: pointer;
+    /* 初始化 */
+    font-size: 16px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 800;
+}
+
+#text {
+    width: 200px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 2em;
+}
+
+.balance {
+    font-size: 16px;
+    color: #989a99;
+    line-height: 50px;
+    position: relative;
+}
+
+.center {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#result {
+    width: 60%;
+    line-height: 80px;
+    left: 20%;
+    background-color: #1c233f;
+    border-radius: 10px;
+    font-size: 22px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    opacity: 0;
+}
+
+.result_animation {
+    -webkit-animation-name: example;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 3s;
+    /* Safari 4.0 - 8.0 */
+    animation-name: run;
+    animation-duration: 3s;
+}
+
+@keyframes run {
+    0% {
+        top: 50%;
+        opacity: 0;
+    }
+    90% {
+        top: 0%;
+        opacity: 1;
+    }
+    100% {
+        top: 0%;
+        opacity: 1;
+    }
+}
+
+.check {
+    margin: 0 auto;
+}
+
+/* tablelist */
+
+.tableList {
+    width: 80%;
+    margin: auto;
+}
+
+.tabs {
+    display: flex;
+    background-color: #1c233f;
+    border-bottom: 1px solid #333853;
+    font-size: 18px;
+    color: #fff;
+}
+
+.tabs>li {
+    margin-left: 50px;
+    padding: 17px 5px;
+    cursor: pointer;
+}
+
+table {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+th {
+    background-color: #1d233e;
+    color: #989a99;
+    line-height: 45px;
+    text-align: center;
+}
+
+tbody {}
+
+td {
+    color: #fff;
+    padding: 15px 14px;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.win {
+    background-color: #334e47;
+    /* 获奖的背景颜色 */
+}
+
+.nickname {
+    font-weight: 200;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.2;
+}
